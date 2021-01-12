@@ -1,0 +1,36 @@
+/*画面サイズが768px以下からはここを読み込む*/
+@media screen and (max-width:768px) { 
+.container{width:100%;}
+header{height: 200px;}
+header .icon{
+  width:100%;
+  text-align: center;
+  margin-top:0px;
+  clear:left;
+}
+header .shopInformation{
+  width:100%;
+  clear:right;
+  text-align: center;
+}
+
+.topMenuLink ul.flexMenu li p.ja{font-size: 13px;}
+.topMenuLink ul.flexMenu li p.en{font-size: 8px;font-weight: bold; padding-top:3px;}
+
+/*main領域*/
+.main .top .slider{width: 100%;margin-top:30px;}
+.top{width: 100%;}
+.top .pageTitle{margin-top: 30px;padding:10px 0 10px 10px}
+.top .sentence .form .director{width:100%;clear: left;margin-bottom: 30px;text-align: center;}
+.top .sentence .form .director img{width:60%;height:250px;}
+.top .sentence .form .career{width:100%;clear:right;margin: 0 0 20px 20px;}
+
+/*sideMenu領域*/
+.sideMenu {width:100%;clear: left;margin-top: 10px;}
+
+
+/*footer領域*/
+footer p{border-top: none;}
+.footerMenu{display: none;}
+
+}
